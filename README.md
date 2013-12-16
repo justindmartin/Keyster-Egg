@@ -16,6 +16,9 @@ var egg = new KeysterEgg({
 
 ## Use the following for directional keys in KeysterEgg combinations
 up		↑
+
 down	↓
+
 left	←
+
 right	→

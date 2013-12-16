@@ -1,7 +1,7 @@
 Keyster Egg
 =================
 
-The KeysterEgg class lets you make key combination easter eggs in JavaScript, just like Konami used to make.
+The KeysterEgg class lets you make key sequence easter eggs in JavaScript, just like Konami used to make.
 
 ## Usage Example
 
@@ -10,11 +10,11 @@ var egg = new KeysterEgg({
   callback: function(){
     alert('Hi there!');
   },
-  keyCombo: 'hello'
+  keySequence: 'hello'
 });
 ```
 
-## Use the following for directional keys in KeysterEgg combinations
+## Use the following for directional keys in KeysterEgg sequences
 ↑  equals  UP
 
 ↓  equals  DOWN

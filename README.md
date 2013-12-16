@@ -8,8 +8,14 @@ The KeysterEgg class lets you make key combination easter eggs in JavaScript, ju
 ```Javascript
 var egg = new KeysterEgg({
   callback: function(){
-    alert('Hiya!');
+    alert('Hi there!');
   },
-  keyCombo: '↑↑↓↓←→←→ba'
+  keyCombo: 'hello'
 });
 ```
+
+## Use the following for directional keys in KeysterEgg combinations
+up		↑
+down	↓
+left	←
+right	→
